@@ -1,4 +1,3 @@
-from data_reader import print_compact
 import gzip
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -83,5 +82,4 @@ if __name__ == "__main__":
     print(users)
     user = users[0]
     user_reviews = review_data.get_user_reviews(user)
-    print_compact(user_reviews)
 
