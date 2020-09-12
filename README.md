@@ -1,6 +1,6 @@
 # An NLP Exercise
 
-**IMPORTANT**: Code needs to be run with the dataset file from https://snap.stanford.edu/data/web-Movies.html, called ```movies.txt.gz``` in the directory.
+**IMPORTANT**: Code needs to be run with the dataset file from https://snap.stanford.edu/data/web-Movies.html (```movies.txt.gz```) in the directory.
 
 
 
