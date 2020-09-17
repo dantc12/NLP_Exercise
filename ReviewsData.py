@@ -75,11 +75,17 @@ class ReviewData:
         logging.debug('Returning user {}\'s  {} reviews.'.format(userId, n_user_reviews))
         return self._userReviews[user_index]
 
+    def get_all_reviews(self):
+        logging.debug('Starting retrieval of all user reviews.')
+        res = [item for sublist in self._userReviews for item in sublist]
+        logging.debug('Done')
+        return res
+
 
 if __name__ == "__main__":
-    review_data = ReviewData(FILE_PATH, 20)
+    review_data = ReviewData(FILE_PATH, 4)
     users = review_data.get_users_list()
-    print(users)
-    user = users[0]
+    # print(users)
+    user = users[3]
     user_reviews = review_data.get_user_reviews(user)
 
