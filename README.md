@@ -10,7 +10,7 @@ The code for a data structure created for manipulating the data from the large m
 ##### ```MovieReviewClassifier.ipynb```
 The main intereset notebook - preforming the task of creating classifiers prediciting user's review score based on his review text.
 
-Requires ```sklearn```, ```pandas```, ```nltk```, ```matplotlib```, and ```seaborn```.
+Requires ```sklearn```, ```pandas```, ```nltk```, ```matplotlib```, ```textblob```, and ```seaborn```.
 
 ##### ```MovieReviewClassifier_FurtherResearch.ipynb```
 A notebook in development in attempt of answering the further research suggested in the main notebook.
